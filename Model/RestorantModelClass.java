@@ -1,5 +1,4 @@
 package com.Restaurant.Restro.Model;
-
 public class RestaurantModelClass {
     private String resto_name;
     private String resto_address;
@@ -57,7 +56,6 @@ public class RestaurantModelClass {
     public void setResto_totalstaff(int resto_totalstaff) {
         this.resto_totalstaff = resto_totalstaff;
     }
-
     @Override
     public String toString() {
         return "RestaurantModelClass{" +
